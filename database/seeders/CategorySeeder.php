@@ -12,11 +12,11 @@ class CategorySeeder extends Seeder
      */
     public function run(): void
     {
-        Category::create([
-            'title'  => 'titulo',
-            'color'  => '#DDEE77',
-            'user_id'  => 1,
+        // Category::create([
+        //     'title'  => 'titulo',
+        //     'color'  => '#DDEE77',
+        //     'user_id'  => 1,
             
-        ]);
+        // ]);
     }
 }

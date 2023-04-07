@@ -13,13 +13,13 @@ class TaskSeeder extends Seeder
      */
     public function run(): void
     {
-        Task::create([
-            'title' => 'titulo',
-            'description' => 'descrição',
-            'due_date' => '2023-04-06 00:00:00',
-            'user_id' => 1,
-            'category_id' => 1,
+        // Task::create([
+        //     'title' => 'titulo',
+        //     'description' => 'descrição',
+        //     'due_date' => '2023-04-06 00:00:00',
+        //     'user_id' => 1,
+        //     'category_id' => 1,
             
-        ]);
+        // ]);
     }
 }
